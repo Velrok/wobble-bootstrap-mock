@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 101 Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+    #contacts .avatar {
+      width: 20px;
+    }
+
+    #wobbles_list .meta_info {
+      width: 78px;
+    }
+
+    #wobbles_list .avatar {
+      width: 33px;
+    }
+
+    .media-object {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--contacts-->
+      <p></p>
+      <p class="lead">
+      <img src="http://gravatar.com/avatar/9bd788f1357722ed25205a22f7a22a99?s=32" class="img-circle">
+        Waldemar <button class="btn btn-link"><i class="icon-off"></i></button>
+      </p>
+      <button class="btn btn-small btn-link">
+        <i class="icon-plus"></i> add contact
+      </button>
+
+      <button class="btn btn-small btn-link">
+        <i class="icon-user"></i> profile
+      </button>
+
+      <p></p>
+
+      <table id="contacts" class="table table-condensed table-hover">
+        <tr>
+          <td class="avatar"><img src="http://gravatar.com/avatar/bc9311056baa3b71c6c0a44b0487d506?s=20" class="img-rounded"></td>
+          <td>Max</td>
+        </tr>
+        <tr>
+          <td class="avatar"><img src="http://gravatar.com/avatar/6b24e6790cb03535ea082d8d73d0a235?s=20" class="img-rounded"></td>
+          <td>Stephan</td>
+        </tr>
+        <tr>
+          <td class="avatar"><img src="http://gravatar.com/avatar/93716f7f16a1d858b3e70cd3a52176de?s=20" class="img-rounded"></td>
+          <td>Anna</td>
+        </tr>
+        <tr>
+          <td class="avatar"><img src="http://gravatar.com/avatar/5a120c80b1f1eab1e09234ee8c9c423c?s=20" class="img-rounded"></td>
+          <td>Dani</td>
+        </tr>
+        <tr>
+          <td class="avatar"><img src="http://gravatar.com/avatar/52039ba45f414cd654a6427d5bc7d8cb?s=20" class="img-rounded"></td>
+          <td>Diana</td>
+        </tr>
+      </table>
+    </div>
+    <div class="span4">
+      <!--wobbels list-->
+      <p></p>
+      <button class="btn btn-primary"><i class="icon-plus icon-white"></i> new wobble</button>
+      <form class="navbar-search pull-right">
+        <input type="text" class="search-query" placeholder="find wobble">
+      </form>
+      <p></p>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#inbox" data-toggle="tab"><i class="icon-inbox"></i> inbox</a></li>
+        <li><a href="#archive" data-toggle="tab"><i class="icon-briefcase"></i> archive</a></li>
+      </ul>
+
+      <div class="tab-content" id="wobbles_list">
+        <div class="tab-pane active" id="inbox">
+          <table class="table table-condensed table-hover">
+            <tr>
+              <td class="avatar"><img src="http://gravatar.com/avatar/bc9311056baa3b71c6c0a44b0487d506?s=32" class="img-rounded"></td>
+              <td><p>
+                Ultimativer Usenet-Thread<br>
+                <small>Monetäre Übersicht (Abrechnung) ------</small></p>
+              </td>
+              <td class="meta_info">
+                <p class="text-right"><span class="badge badge-success">2</span> of 5<br>
+                <small>12.03</small></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="avatar"><img src="http://gravatar.com/avatar/6b24e6790cb03535ea082d8d73d0a235?s=32" class="img-rounded"></td>
+              <td><p>
+                IronMan3<br>
+                <small>Wer?WaldemarStephan (2D)Maik (2D)Wann?Kinostart ist der 1. </small></p>
+              </td>
+              <td class="meta_info">
+                <p class="text-right"><span class="badge badge-success">2</span> of 5<br>
+                <small>12.03</small></p>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td class="avatar"><img src="http://gravatar.com/avatar/e7713def6036264bba6a01ad50ed7b69?s=32" class="img-rounded"></td>
+              <td><p>
+                Russkaja - Energia (Angebot via BitTorrent Sync)<br>
+                <small>Hätte das neue Russkaja Album in Angebot. Wenn jemand das haben will einfach melden dann schmeiß ich das rein.Zuständig fürs löschen ist der letzte der es Anfordert.</small></p>
+              </td>
+              <td class="meta_info">
+                <p class="text-right"><span class="badge badge-success">80</span> of 120<br>
+                <small>12.03</small></p>
+              </td>
+            </tr>
+
+
+          </table>
+
+        </div>
+
+        <div class="tab-pane" id="archive">ARCHIVE</div>
+      </div>
+    </div>
+    <div class="span6">
+      <!--Body content-->
+      <p></p>
+      <p>
+        <button class="btn btn-primary"><i class="icon-plus icon-white"></i> invite user</button>
+        <button class="btn btn-link"><i class="icon-briefcase"></i> archive topic</button>
+        <button class="btn btn-link"><i class="icon-eye-close"></i> read all</button>
+        <button class="btn btn-link"><i class="icon-envelope"></i> unread all</button>
+      </p>
+      <div class="well well-small">
+        <img src="http://gravatar.com/avatar/9bd788f1357722ed25205a22f7a22a99?s=32" class="img-rounded">
+        <img src="http://gravatar.com/avatar/bc9311056baa3b71c6c0a44b0487d506?s=32" class="img-rounded">
+        <img src="http://gravatar.com/avatar/6b24e6790cb03535ea082d8d73d0a235?s=32" class="img-rounded">
+        <img src="http://gravatar.com/avatar/e7713def6036264bba6a01ad50ed7b69?s=32" class="img-rounded">
+      </div>
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="http://gravatar.com/avatar/6b24e6790cb03535ea082d8d73d0a235?s=32">
+          <img class="media-object" src="http://gravatar.com/avatar/e7713def6036264bba6a01ad50ed7b69?s=32">
+          <img class="media-object" src="http://gravatar.com/avatar/9bd788f1357722ed25205a22f7a22a99?s=32">
+        </a>
+        <p>
+        <small>Stephan Z., Maik and Me</small>
+        <small class="pull-right">27.4.2013 12:07</small>
+        </p>
+        <div class="media-body">
+          <h4 class="media-heading">Iron Man 3</h4>
+          <div><br></div><div>Wer?</div><div><ol><li>Waldemar</li><li>Stephan (2D)</li><li>Maik (2D)</li></ol></div><div>Wann?</div><div>Kinostart ist der 1. Mai.</div><div><br></div><div>Wo?</div><div>Wieviel?</div>
+        </div>
+        <p class="pull-right">
+          <button class="btn btn-small"><i class="icon-share"></i> replay</button>
+          <button class="btn btn-link btn-warning"><i class="icon-pencil"></i> edit</button>
+        </p>
+      </div>
+
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="http://gravatar.com/avatar/6b24e6790cb03535ea082d8d73d0a235?s=32">
+        </a>
+        <p>
+        <small>Stephan Z.</small>
+        <small class="pull-right">27.4.2013 12:07</small>
+        </p>
+        <div class="media-body">
+          <h4 class="media-heading"></h4>
+          Wäre auch für 2D, wobei BadGodesberg n Männerabend für 3D anbietet ^^&nbsp;<div><br></div><div><a href="http://www.kinopolis.de/bn/EventFolder/Event-1194" target="_new">http://www.kinopolis.de/bn/EventFolder/Event-1194</a><br>
+<br></div>
+        <p class="pull-right">
+          <button class="btn btn-small"><i class="icon-share"></i> replay</button>
+          <button class="btn btn-link btn-warning"><i class="icon-pencil"></i> edit</button>
+          <button class="btn btn-link btn-danger"><i class="icon-remove"></i> delete</button>
+        </p>
+
+          <div class="media clearfix">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="http://gravatar.com/avatar/6b24e6790cb03535ea082d8d73d0a235?s=32">
+            </a>
+            <p>
+            <small>Stephan Z.</small>
+            <small class="pull-right">27.4.2013 12:07</small>
+            </p>
+            <div class="media-body">
+              <h4 class="media-heading"></h4>
+              <div><br></div>
+  <div class="contentFirstRow" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; width: 719px; color: rgb(54, 54, 54); font-family: Verdana, sans-serif; font-size: 10px;"><div class="movieResultItem daylyViewItem" style="border: 0px; margin: 0px 0px 26px; outline: 0px; padding: 0px; background-image: url(http://static.kinopolis.de/111ab321d7570df330e07ec92d89fec5/omni/css/img/kinopolis_entertainment/bg_StarTeaser_720x75.png); clear: both; position: relative; background-position: 0px 0px; background-repeat: no-repeat no-repeat;"><ul class="preSellingMovieList filmSeriesItemLeftCol" style="border: 0px; margin: 0px 0px 26px; outline: 0px; padding: 0px; font-size: 1.1em; list-style-position: outside; position: relative; width: 719px;"><li class="preSellingMovieListItem" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; list-style-image: none; list-style-type: none; float: left; width: 536px;"><div class="preSellingMovieListItemHeadline" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; width: 719px;"><h3 style="border: 0px; margin: 0px 0px 5px; outline: 0px; padding: 10px 13px 0px 0px; color: rgb(0, 65, 120); font-size: 1.1em;"><a href="http://www.kinopolis.de/bn/angebote_und_events/angebote_events_filmreihen/angeboteEvents_filmreihen_detail?film_run=M%C3%A4nnersachen" style="border: 0px; margin: 0px 0px 5px; outline: 0px; padding: 7px 10px 0px 0px; color: rgb(0, 65, 120); cursor: pointer; font-size: 1.1em; text-decoration: none;" target="_new">Männersachen</a></h3></div><div class="preSellingMovieTeaser" style="border-width: 1px 0px 0px; border-top-style: solid; border-top-color: rgb(218, 218, 218); margin: 0px; outline: 0px; padding: 5px 13px 0px 0px; font-size: 1em; line-height: 1.3em; overflow: hidden; width: 411px;"><p style="border: 0px; margin: 0px; outline: 0px; padding: 0px; font-size: 1em; line-height: 1.2em; overflow: hidden;"><span style="border: 0px; margin: 0px; outline: 0px; padding: 0px;">Männersachen, unsere Vorpremiere für Männer mit Nerven aus Stahl. Tauschen Sie einmal im Monat Ihren Stammtischplatz mit einem bequemen Kinosessel und lassen Sie sich in unserer Männer-Reihe "Männersachen" in die Welt der echten Kerle entführen.</span>&nbsp;<a class="moreLink" href="http://www.kinopolis.de/bn/angebote_und_events/angeboteEvents_filmreihen_detail?film_run=M%C3%A4nnersachen" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; color: rgb(54, 54, 54); cursor: pointer; font-size: 1em;" target="_new">Mehr</a></p></div></li></ul><div class="filmSeriesItemRightCol" style="border-width: 1px 0px 0px; border-top-style: solid; border-top-color: rgb(218, 218, 218); margin: 0px; outline: 0px; padding: 5px 0px 0px; position: absolute; top: 31px; right: 0px; width: 183px;"><div class="rightColHeadline" style="border: 0px; margin: -28px 0px 0px 13px; outline: 0px; padding: 0px; color: rgb(0, 65, 120); font-size: 1.3em;">Nächster Termin</div></div></div></div><div class="contentFirstRow" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; width: 719px; color: rgb(54, 54, 54); font-family: Verdana, sans-serif; font-size: 10px;"><div class="movieResultItem daylyViewItem" style="border: 0px; margin: 0px 0px 26px; outline: 0px; padding: 0px; background-image: url(http://static.kinopolis.de/111ab321d7570df330e07ec92d89fec5/omni/css/img/kinopolis_entertainment/bg_StarTeaser_720x75.png); clear: both; position: relative; background-position: 0px 0px; background-repeat: no-repeat no-repeat;"><ul class="preSellingMovieList filmSeriesItemLeftCol" style="border: 0px; margin: 0px 0px 26px; outline: 0px; padding: 0px; font-size: 1.1em; list-style-position: outside; position: relative; width: 719px;"><li class="preSellingMovieListItem" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; list-style-image: none; list-style-type: none; float: left; width: 536px;"><div class="preSellingMovieListItemHeadline" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; width: 719px;"><a href="http://www.kinopolis.de/bn/angebote_und_events/angebote_events_filmreihen/angeboteEvents_filmreihen_detail?film_run=3D%20Vorstellung" class="filmSeriesIconPortal" style="border: 0px; margin: 0px 10px 0px 0px; outline: 0px; padding: 0px; color: rgb(0, 65, 120); cursor: pointer; font-size: 1.1em; text-decoration: none; display: block; float: left; height: 76px; width: 102px;" target="_new"></a></div></li></ul></div></div>
+  <br>
+            </div>
+            <p class="pull-right">
+              <button class="btn btn-small"><i class="icon-share"></i> replay</button>
+              <button class="btn btn-link btn-warning"><i class="icon-pencil"></i> edit</button>
+              <button class="btn btn-link btn-danger"><i class="icon-remove"></i> delete</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
